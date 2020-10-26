@@ -49,6 +49,8 @@ This repository is protected by copyright, but is able to be obtained from any r
 
 ## Showcase
 
+![](https://i.imgur.com/CykXrk9.png)
+
 ## Installation / Uninstallation
 
 Just run the exe, find and select your ```GenshinImpact.exe``` and install. To uninstall, just run the exe, find and select your ```GenshinImpact.exe``` and uninstall. 
