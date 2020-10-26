@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "loader", "source\loader\loader.vcxproj", "{A7B44078-3D2E-41A9-85C4-0FF2F47B9E2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stub", "source\stub\stub.vcxproj", "{B6E933E5-CD74-495C-BA8C-30A81CE1A49D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "crypt", "source\crypt\crypt.vcxproj", "{E141D071-D536-4E49-8AEE-B5264B5BC93C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7B44078-3D2E-41A9-85C4-0FF2F47B9E2C}.Debug|x64.ActiveCfg = Debug|x64
+		{A7B44078-3D2E-41A9-85C4-0FF2F47B9E2C}.Debug|x64.Build.0 = Debug|x64
+		{A7B44078-3D2E-41A9-85C4-0FF2F47B9E2C}.Release|x64.ActiveCfg = Release|x64
+		{A7B44078-3D2E-41A9-85C4-0FF2F47B9E2C}.Release|x64.Build.0 = Release|x64
+		{B6E933E5-CD74-495C-BA8C-30A81CE1A49D}.Debug|x64.ActiveCfg = Debug|x64
+		{B6E933E5-CD74-495C-BA8C-30A81CE1A49D}.Debug|x64.Build.0 = Debug|x64
+		{B6E933E5-CD74-495C-BA8C-30A81CE1A49D}.Release|x64.ActiveCfg = Release|x64
+		{B6E933E5-CD74-495C-BA8C-30A81CE1A49D}.Release|x64.Build.0 = Release|x64
+		{E141D071-D536-4E49-8AEE-B5264B5BC93C}.Debug|x64.ActiveCfg = Debug|x64
+		{E141D071-D536-4E49-8AEE-B5264B5BC93C}.Debug|x64.Build.0 = Debug|x64
+		{E141D071-D536-4E49-8AEE-B5264B5BC93C}.Release|x64.ActiveCfg = Release|x64
+		{E141D071-D536-4E49-8AEE-B5264B5BC93C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

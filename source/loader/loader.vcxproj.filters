@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="form_installer.cpp">
+      <Filter>ui\installer</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{4d1cfc7c-ef24-4999-9186-03b960d9ec2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stub">
+      <UniqueIdentifier>{8d6e997e-3bdf-42bc-a6da-deb221368814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{a204849d-ca4e-405a-95bf-b9c4434ad57e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\installer">
+      <UniqueIdentifier>{04d50625-f7de-41e1-9d47-fee350324b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{505bf5de-6bb7-4821-8149-e229b6520fd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="form_installer.h">
+      <Filter>ui\installer</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="stub.h">
+      <Filter>stub</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.xor.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="form_installer.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="loader.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="main.ico">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="export">
+      <UniqueIdentifier>{99e7f71a-4742-4db7-8733-52f69c8c9c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{cdb39976-ef3f-4f85-9a7a-a8d82ee8313c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stub">
+      <UniqueIdentifier>{6ff869b0-fe8c-46cb-8119-e97fa42c5a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{f7ef1ff0-6bb1-4ed8-95ce-f21368808a96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stub.hide.cpp">
+      <Filter>stub</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.api.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="export.hpp">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="export.includes.hpp">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="stub.api.hpp">
+      <Filter>stub</Filter>
+    </ClInclude>
+    <ClInclude Include="stub.dependencies.hpp">
+      <Filter>stub</Filter>
+    </ClInclude>
+    <ClInclude Include="stub.details.hpp">
+      <Filter>stub</Filter>
+    </ClInclude>
+    <ClInclude Include="stub.hide.hpp">
+      <Filter>stub</Filter>
+    </ClInclude>
+    <ClInclude Include="stub.launch.hpp">
+      <Filter>stub</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.api.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.files.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.logger.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.strings.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.xor.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="stub.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="utilities.low.asm">
+      <Filter>utilities</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
