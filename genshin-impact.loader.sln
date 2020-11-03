@@ -1,11 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "loader", "source\loader\loader.vcxproj", "{A7B44078-3D2E-41A9-85C4-0FF2F47B9E2C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stub", "source\stub\stub.vcxproj", "{B6E933E5-CD74-495C-BA8C-30A81CE1A49D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E141D071-D536-4E49-8AEE-B5264B5BC93C} = {E141D071-D536-4E49-8AEE-B5264B5BC93C}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "crypt", "source\crypt\crypt.vcxproj", "{E141D071-D536-4E49-8AEE-B5264B5BC93C}"
 EndProject
@@ -30,5 +33,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E80C5795-028B-41A7-94FF-D53665FCFDC5}
 	EndGlobalSection
 EndGlobal
